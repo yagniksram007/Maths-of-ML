@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 # Load data from Excel sheet 
-file_path = ('D:/My Files/Engineering/5th Sem/ML Lab/Data.xlsx')  # Replace with the actual file path
+file_path = ('D:/My Files/Engineering/5th Sem/ML Lab/Dataset/Sales.xlsx')  # Replace with the actual file path
 df = pd.read_excel(file_path)
 
 print(df)
