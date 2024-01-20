@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 # Load the dataset from an Excel sheet
 file_path ='D:/My Files/Engineering/5th Sem/ML Lab/Dataset/Weights.xlsx'
 
+
 df = pd.read_excel(file_path)
 
 # Check the first few rows of the dataset
